@@ -1,0 +1,21 @@
+.Content{
+    padding: 0 0 20px;
+}
+
+.Headcontent{
+    box-shadow: 0 5px 25px 0 lightblue; 
+    margin-top: 80px; 
+    position: relative;
+    color: black;
+}
+
+.Headcontent h2{
+    color: #ccc;
+}
+
+@media (min-width: 768px){
+    .Headcontent {
+        margin-bottom: 50px;
+    }
+}
+

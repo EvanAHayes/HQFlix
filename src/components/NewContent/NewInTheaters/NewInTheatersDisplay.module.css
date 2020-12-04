@@ -1,0 +1,35 @@
+.card{
+    background-color: silver;
+   }
+.card__cover {
+    position: relative;
+    box-shadow: none;
+    transition: 0.4s ease;
+}
+
+.card__cover img {
+    width: 100%;
+}
+.cardList {
+    margin-bottom: 25px;
+}
+
+#heartIcon{
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+}
+
+p{
+    cursor: pointer;
+}
+
+h3{
+    color: #007bff;
+}
+@media (min-width: 768px){
+    .cardList {
+        margin-bottom: 50px;
+    }
+    }
